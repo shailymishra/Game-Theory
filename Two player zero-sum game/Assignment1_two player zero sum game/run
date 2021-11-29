@@ -1,0 +1,1 @@
+python2 pareto_set_version.py $1 > $2

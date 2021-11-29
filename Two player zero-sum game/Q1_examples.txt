@@ -1,0 +1,34 @@
+Input:
+NFG 1 R "Example 1"
+{ "Player 1" "Player 2" } { 3 3 }
+
+7 -7 5 -5 5 -5 5 -5 4 -4 5 -5 5 -5 3 -3 5 -5
+
+Output:
+4
+0 1
+0 2
+2 1
+2 2
+0 0 1
+0 1 0
+
+Input:
+NFG 1 R "Example 2"
+{ "Player 1" "Player 2" } { 2 3 }
+
+0.0 -0.0 1.0 -1.0 0.833333 -0.833333 0.5 -0.5 0.5 -0.5 0.75 -0.75
+
+Output:
+0
+0.375 0.625
+0.25 0.75 0
+
+Input:
+NFG 1 R "Example 3"
+{ "Player 1" "Player 2" } { 3 3 }
+
+7 7 5 5 5 5 5 5 4 4 5 -5 5 -5 3 -3 5 -5
+
+Output:
+Error: Not a zero sum game
